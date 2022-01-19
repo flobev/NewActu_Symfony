@@ -1,0 +1,21 @@
+php bin/console doctrine:database:create : Création de la bdd
+
+php bin/console make:controller DefaultController : Créer un controleur
+
+symfony serve : Lancer le serveur
+
+symfony server:start -d : Lancer le serveur en fond
+
+symfony server:stop : Arrête le serveur
+
+symfony server:ca:install : Installe le certificat https
+
+php bin/console doctrine:schema:validate : Infos sur les données valables
+
+php bin/console doctrine:schema:update -f : Update la bdd
+
+composer require symfony/doctrine-messenger : Installe doctrine messenger
+
+d:s:u
+
+php bin/console doctrine:fixture:load --append : Est nécessaire si l'on ne veut pas effacer le contenu, cela ajoute donc les données.
